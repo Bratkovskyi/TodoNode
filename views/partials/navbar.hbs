@@ -1,0 +1,44 @@
+{{!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    {{#if isIndex}}
+                    <li class="active"><a href="/">Todoss</a></li>
+                    {{else}}
+                    <li><a href="/">Todoss</a></li>
+                    {{/if}}
+                
+                    {{#if isCreate}}
+                    <li class="active"><a href="/create">Create</a></li>
+                    {{else}}
+                    <li><a href="/create">Create</a></li>
+                    {{/if}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav> --}}
+<nav class="blue darken-4">
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo">Todos</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            {{#if isIndex}}
+            <li class="active"><a href="/">Todoss</a></li>
+            {{else}}
+            <li><a href="/">Todoss</a></li>
+            {{/if}}
+
+            {{#if isCreate}}
+            <li class="active"><a href="/create">Create</a></li>
+            {{else}}
+            <li><a href="/create">Create</a></li>
+            {{/if}}
+        </ul>
+    </div>
+</nav>
